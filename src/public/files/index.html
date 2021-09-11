@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchPad</title>
+    <link rel="stylesheet" href="/src/public/styles/style.css">
+</head>
+<body>
+    <div class = launch-pad-container>
+        <h1 style="color:white; position: absolute; margin-left: 90px; margin-top: -100px;">LaunchPad<h1></h1>
+        <div class = launch-pad>
+            <div id = launch-pad-background></div>
+            <div data-key="keyq" class = launch id = launch-1> <h1>Q</h1></div>
+            <div data-key="keyw" class = launch id = launch-2> <h1>W</h1></div>
+            <div data-key="keye" class = launch id = launch-3> <h1>E</h1></div>
+            
+            
+            <div data-key="keya" class = launch id = launch-4> <h1>A</h1></div>
+            <div data-key="keys" class = launch id = launch-5> <h1>S</h1></div>
+            <div data-key="keyd" class = launch id = launch-6> <h1>D</h1></div>
+
+            <div data-key="keyz" class = launch id = launch-7> <h1>Z</h1></div>
+            <div data-key="keyx" class = launch id = launch-8> <h1>X</h1></div>
+            <div data-key="keyc" class = launch id = launch-9> <h1>C</h1></div>
+        </div>
+    </div>
+    <div class = composer>
+        <input type="text" name="" id="input" placeholder="Faça uma composição">
+        <button>TOCAR</button>
+    </div>
+    <audio id = s_keyw src="/src/audio/1.wav"></audio>
+    <audio id = s_keye src="/src/audio/2.wav"></audio>
+    <audio id = s_keyq src="/src/audio/3.wav"></audio>
+    <audio id = s_keys src="/src/audio/4.wav"></audio>
+    <audio id = s_keyd src="/src/audio/5.wav"></audio>
+    <audio id = s_keya src="/src/audio/6.wav"></audio>
+    <audio id = s_keyx src="/src/audio/7.wav"></audio>
+    <audio id = s_keyc src="/src/audio/8.wav"></audio>
+    <audio id = s_keyz src="/src/audio/9.wav"></audio>
+    <audio src=""></audio>
+    <script src="app.js"></script>
+</body>
+</html>
